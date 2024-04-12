@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: RegisterTokenAPI
+  description: API Definition of RegisterTokenAPI
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/register/token
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response
